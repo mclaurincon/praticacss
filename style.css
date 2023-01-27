@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Lato:wght@700&family=Reem+Kufi+Ink&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font: 100%;
+    background: linear-gradient(68.15deg, #ccd7e3 16.62%, #488cea 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-family: 'Cantarell';
+    color:#030f1c;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Cantarell';
+    color:#030f1c;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.cabecalho-menu-item1:hover {  
+        background-color: rgba(0, 0, 0, 0.25)
+    }
+
+    .cabecalho-menu-item2:hover {  
+        background-color: rgba(0, 0, 0, 0.25)
+    }
+
+    .cabecalho-menu-item3:hover {  
+        background-color: rgba(0, 0, 0, 0.25)
+    }
+.conteudo {
+    padding: 30px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+
+
+.conteudo-principal-escrito {
+    display: flexbox;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 140px;
+
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 44px;
+    color:#030f1c;
+    border-top: 32px;
+}
+
+.conteudo-principal-subtitulo {
+   padding: 14px;
+    font-family: 'Cantarell', sans-serif;
+    color:#030f1c;
+    font-weight: 400;
+    font-size: 12px;
+   
+   
+}
+
+.conteudo-principal-botao {
+
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px ;
+    font-family: 'Cantarell';
+    color:#030f1c;
+    font-weight: 100;
+    font-size: 16px;
+    gap: 50px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+.imagem-principal {
+    display: flexbox;
+    align-items:center;
+    border-radius: 1px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-topicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24 px;
+}
+
+.titulo-topicos {
+     padding: 20px;
+    border-top: 1.0px solid #FFF2E7;
+   
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color:#030f1c;
+    
+}
+
+.topico {
+   
+    font-family: 'Cantarell', sans-serif;
+    color:#030f1c;
+    font-weight: 400;
+    font-size: 12px;
+}
+.conteudo-footer {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.imagem-footer {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+  }
